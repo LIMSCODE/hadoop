@@ -1,0 +1,81 @@
+https://ethicalhacker.tistory.com/114
+https://heehehe-ds.tistory.com/156
+https://qu-uox.tistory.com/16
+
+
+#########Permission denied는 키젠 생성해서 해결한다 ############
+ssh-keygen -t rsa -P ""
+cat ~/.ssh/id_rsa.pub
+chmod 0600 ~/.ssh/id_rsa
+
+위는 /home/hdoop에서 함
+
+->" ssh-copy-id ljy@localhost "로 공개키를 ssh 서버에 등록 ###
+-> ssh ljy@localhost 로 패스워드 없이 접속되는지 확인 ###
+
+sudo nano -c /etc/ssh/sshd_config 에서 설정입력 ##############
+=============================================
+
+//설치확인
+https://edorrr.tistory.com/42
+
+bin/hdfs namenode -format
+sbin/start-dfs.sh
+sbin/start-yarn.sh
+jps 로 6개뜨는지확인 (정상설치) ####################
+
+는
+/home/
+ 
+
+//설치확인 ###################아래명령어 안뜸 ##############????????
+hadoop-env
+hadoop namenode -format 
+
+최종적으로 페이지 3개띄워보기 ######뜸
+
+
+
+==============================
+//에러해결
+https://qu-uox.tistory.com/16
+
+
+//Permission denied
+
+그런데 여기서 namenodes, datanodes, secondary namnodes 
+시작시 Permission denied 발생
+-> sudo로 실행해도 안됨 (유저를 찾을 수 없다고 뜬다.)
+
+->" ssh-copy-id ljy@localhost "로 공개키를 ssh 서버에 등록 ###
+-> ssh ljy@localhost 로 패스워드 없이 접속되는지 확인 ###
+
+->다시 sbin/start-dfs.sh 를 했는데 
+"Unable to write in /usr/local/hadoop-3.3.5/logs" 에러 발생
+->sudo chmod -R 777 /usr/local/hadoop-3.3.5/logs 
+로 쓰기 권한 부여
+->해결됨.
+
+==============================
+############### Colud not find or load main class =Djava.library ...
+
+HADOOP_OPTS='-Djava.library.path=$HADOOP_HOME/lib/native'
+이므로,,,
+HADOO_HOME경로를 포함하므로
+리눅스 기본경로에서 실행해야 먹힘 ###################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

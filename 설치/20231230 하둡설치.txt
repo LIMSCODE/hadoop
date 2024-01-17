@@ -1,0 +1,76 @@
+
+
+//핵심포인트
+하둡설치
+데이터입수, 개조
+머신러닝
+
+
+==================================
+스파크 설치법
+https://spark.apache.org/docs/latest/
+
+HDFS
+맵리듀스
+스파크
+피그 
+pig.apache.org
+하이브
+hive.apache.org
+스쿱
+sqoop.apache.org
+우지
+oozie.apache.org
+==========================================
+//버처박스, 우분투, 하둡 설치
+버처박스 설치후 우분투 iso를 가동시에 넣으면 실행됨
+
+===========================================
+하둡다운,압축해제
+https://blog.naver.com/heaves1/220511958801
+
+환경설정
+https://andante-sloth.tistory.com/133
+
+하둡설치
+https://blog.naver.com/myh151515/223263053090
+
+
+레드햇에 설치
+https://velog.io/@denver_almighty/Hadoop-Hadoop3-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0
+윈도우에 설치
+https://yensr.tistory.com/51
+
+
+가상환경 위에 설치
+virtual박스, 우분투설치
+https://datamod.tistory.com/134
+
+다양한 설치법
+https://dos-soles.tistory.com/24
+
+버처박스, 우분투로 설치
+https://hc-kang.tistory.com/18
+
+터미널안열릴때 -터미널검색
+https://code-lab1.tistory.com/309
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,60 @@
+
+//버처박스로 파일옮기기
+https://mozi.tistory.com/274
+
+iso다운후 진행
+https://extrememanual.net/40500
+
+CD이미지삽입 눌러도 반응없을때
+https://velog.io/@im-shung/VirtualBox-%EA%B3%B5%EC%9C%A0-%ED%8F%B4%EB%8D%94-%EC%84%A4%EC%A0%95-%ED%81%B4%EB%A6%BD%EB%B3%B4%EB%93%9C-%EA%B3%B5%EC%9C%A0%EB%93%9C%EB%9E%98%EA%B7%B8-%EC%95%A4-%EB%93%9C%EB%A1%AD-%EC%95%88%EB%90%A0-%EB%95%8C%EA%B2%8C%EC%8A%A4%ED%8A%B8-%ED%99%95%EC%9E%A5-CD-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%82%BD%EC%9E%85-%EB%AC%B4%EB%B0%98%EC%9D%91
+
+
+sudo apt-get install virtualbox-guest-additions-iso
+sudo apt-get install virtualbox-guest-utils
+sudo usermod -G vboxsf -a ljy
+
+sudo groupadd vboxsf
+
+https://forums.linuxmint.com/viewtopic.php?p=2157019&sid=295b540670cd382a7789be126e6acb6f#p2157019
+
+
+=============
+iso파일삽입안된다는 오류뜰때
+C>programfiles > Oracle > VirtualBox 들어가서 직접실행
+
+==============================
+이제  버쳐박스에서 
+공유폴더로 설정한 경로가 
+휴지통 아래에 뜬다 ##############
+공유폴더에 넣어놓은 파일을 열수 있다 ##################
+   
+=====================================
+  
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
